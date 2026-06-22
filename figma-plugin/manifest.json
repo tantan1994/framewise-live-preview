@@ -5,6 +5,6 @@
   "ui": "ui.html",
   "editorType": ["figma"],
   "networkAccess": {
-    "allowedDomains": ["https://YOUR_RELAY_DOMAIN"]
+    "allowedDomains": ["https://framewise-live-preview.onrender.com"]
   }
 }
