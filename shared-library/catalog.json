@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-23",
+  "items": [
+    { "id": "drama-夫人一个过肩摔瘫子总裁站起来了", "kind": "drama", "name": "夫人一个过肩摔，瘫子总裁站起来了", "image": "covers/夫人一个过肩摔，瘫子总裁站起来了.jpeg" },
+    { "id": "drama-爱我万岁", "kind": "drama", "name": "爱我万岁", "image": "covers/爱我万岁.jpeg" },
+    { "id": "drama-二嫁上上签", "kind": "drama", "name": "二嫁上上签", "image": "covers/二嫁上上签.jpeg" },
+    { "id": "drama-姐他真是我姐夫", "kind": "drama", "name": "姐，他真是我姐夫", "image": "covers/姐，他真是我姐夫.jpeg" },
+    { "id": "drama-十八岁太奶奶驾到重整家族荣耀", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀", "image": "covers/十八岁太奶奶驾到，重整家族荣耀.jpeg" },
+    { "id": "drama-十八岁太奶奶驾到重整家族荣耀第二部", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀第二部", "image": "covers/十八岁太奶奶驾到，重整家族荣耀第二部.jpeg" },
+    { "id": "drama-十八岁太奶奶驾到重整家族荣耀第三部", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀第三部", "image": "covers/十八岁太奶奶驾到，重整家族荣耀第三部.jpeg" },
+    { "id": "drama-十八岁太奶奶驾到重整家族荣耀第四部", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀第四部", "image": "covers/十八岁太奶奶驾到，重整家族荣耀第四部.jpeg" },
+    { "id": "drama-人间烟火向阳行", "kind": "drama", "name": "人间烟火向阳行", "image": "covers/人间烟火向阳行.jpg" },
+    { "id": "actor-韩雨彤", "kind": "actor", "name": "韩雨彤", "image": "actors/韩雨彤.jpeg" },
+    { "id": "actor-李柯以", "kind": "actor", "name": "李柯以", "image": "actors/李柯以.jpeg" },
+    { "id": "actor-梁思伟", "kind": "actor", "name": "梁思伟", "image": "actors/梁思伟.jpeg" },
+    { "id": "actor-王培延", "kind": "actor", "name": "王培延", "image": "actors/王培延.jpeg" },
+    { "id": "actor-许顺利", "kind": "actor", "name": "许顺利", "image": "actors/许顺利.jpg" },
+    { "id": "actor-姚鸣萧", "kind": "actor", "name": "姚鸣萧", "image": "actors/姚鸣萧.jpg" }
+  ]
+}
