@@ -12,10 +12,16 @@
     .toolbar { display: flex; gap: 8px; margin: 14px 0 10px; }
     .search { width: 100%; height: 32px; border: 1px solid #d5d5d5; border-radius: 6px; padding: 0 9px; font: inherit; outline: none; }
     .search:focus { border-color: #18a0fb; }
+    .category-row { display: flex; gap: 8px; margin: -2px 0 10px; align-items: center; justify-content: space-between; }
+    .actions { display: flex; gap: 8px; align-items: center; justify-content: flex-end; }
+    .batch { display: inline-flex; align-items: center; gap: 5px; height: 26px; border: 0; border-radius: 13px; padding: 0 9px; background: transparent; color: #333; font: 11px Inter, Arial, sans-serif; cursor: pointer; }
+    .batch:hover { background: #f1f1f1; }
+    .batch:disabled { color: #aaa; cursor: not-allowed; }
+    .batch-icon { font-size: 12px; line-height: 1; }
     .tabs { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
     .tab { border: 0; border-radius: 16px; padding: 6px 11px; background: #f1f1f1; color: #666; font: inherit; cursor: pointer; }
     .tab.active { background: #18a0fb; color: #fff; }
-    .category-tabs { display: flex; gap: 6px; margin: -2px 0 10px; flex-wrap: wrap; }
+    .category-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
     .category-tabs.hidden { display: none; }
     .category-tab { border: 0; border-radius: 14px; padding: 5px 9px; background: #f6f6f6; color: #777; font: 11px Inter, Arial, sans-serif; cursor: pointer; }
     .category-tab.active { background: #202020; color: #fff; }
@@ -44,8 +50,13 @@
     <button class="tab active" data-kind="drama">短剧封图</button>
     <button class="tab" data-kind="actor">演员头像</button>
   </div>
-  <div id="category-tabs" class="category-tabs"></div>
-  <div id="grid" class="grid"><div class="loading">版本 0626-4：正在启动素材库…</div></div>
+  <div class="category-row">
+    <div id="category-tabs" class="category-tabs"></div>
+    <div class="actions">
+      <button id="batch" class="batch"><span class="batch-icon">⟳</span><span>一键填充当前分类</span></button>
+    </div>
+  </div>
+  <div id="grid" class="grid"><div class="loading">版本 0626-10：正在启动素材库…</div></div>
   <div id="message" class="message"></div>
   <details class="settings">
     <summary>素材库连接设置</summary>
@@ -59,6 +70,7 @@
     var kind = 'drama';
     var category = '真人剧';
     var categories = ['真人剧', '漫剧', 'AI仿真人剧'];
+    var selectionGroups = 0;
     var fallbackItems = [
       ['drama', '真人剧', '夫人一个过肩摔，瘫子总裁站起来了', 'covers/夫人一个过肩摔，瘫子总裁站起来了.jpeg'],
       ['drama', '真人剧', '爱我万岁', 'covers/爱我万岁.jpeg'],
@@ -142,8 +154,10 @@
       wrap.innerHTML = '';
       if (kind !== 'drama') {
         wrap.className = 'category-tabs hidden';
+        $('#batch').innerHTML = '<span class="batch-icon">⟳</span><span>一键填充演员头像</span>';
         return;
       }
+      $('#batch').innerHTML = '<span class="batch-icon">⟳</span><span>一键填充' + safe(category) + '</span>';
       wrap.className = 'category-tabs';
       categories.forEach(function(value) {
         var button = document.createElement('button');
@@ -179,15 +193,22 @@
     }
 
     async function loadImageIntoItem(item) {
-      try {
-        var response = await fetch(item.url);
-        if (!response.ok) throw new Error('图片读取失败');
-        var buffer = await response.arrayBuffer();
-        item.bytes = Array.prototype.slice.call(new Uint8Array(buffer));
-        item.thumbUrl = URL.createObjectURL(new Blob([buffer]));
-      } catch (error) {
-        item.failed = true;
-      }
+      if (item.bytes) return;
+      if (item.loadingPromise) return item.loadingPromise;
+      item.loadingPromise = (async function() {
+        try {
+          var response = await fetch(item.url);
+          if (!response.ok) throw new Error('图片读取失败');
+          var buffer = await response.arrayBuffer();
+          item.bytes = Array.prototype.slice.call(new Uint8Array(buffer));
+          item.thumbUrl = URL.createObjectURL(new Blob([buffer]));
+        } catch (error) {
+          item.failed = true;
+        } finally {
+          item.loadingPromise = null;
+        }
+      })();
+      await item.loadingPromise;
       render();
     }
 
@@ -247,6 +268,50 @@
       }
     }
 
+    function shuffle(source) {
+      var copy = source.slice();
+      for (var i = copy.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = copy[i];
+        copy[i] = copy[j];
+        copy[j] = tmp;
+      }
+      return copy;
+    }
+
+    async function batchApply() {
+      try {
+        var available = filteredItems().filter(function(item) { return !item.failed; });
+        if (!available.length) {
+          message('当前分类没有可用素材。', 'error');
+          return;
+        }
+        if (!selectionGroups) {
+          message('请先选中一个包含多组「图片 + 标题」的模块。', 'error');
+          return;
+        }
+        var count = Math.min(selectionGroups, available.length);
+        var picks = shuffle(available).slice(0, count);
+        $('#batch').disabled = true;
+        message('正在从「' + (kind === 'drama' ? category : '演员头像') + '」随机填充 ' + count + ' 组…');
+        for (var i = 0; i < picks.length; i++) {
+          if (!picks[i].bytes) await loadImageIntoItem(picks[i]);
+        }
+        picks = picks.filter(function(item) { return item.bytes; });
+        if (!picks.length) throw new Error('图片读取失败');
+        parent.postMessage({
+          pluginMessage: {
+            type: 'apply-batch-shared',
+            items: picks.map(function(item) { return { name: item.name, bytes: item.bytes }; })
+          }
+        }, '*');
+      } catch (error) {
+        message('一键填充失败，请稍后重试。', 'error');
+      } finally {
+        $('#batch').disabled = false;
+      }
+    }
+
     document.querySelectorAll('.tab').forEach(function(tab) {
       tab.onclick = function() {
         document.querySelectorAll('.tab').forEach(function(x) { x.classList.remove('active'); });
@@ -258,12 +323,14 @@
     });
     $('#search').oninput = render;
     $('#reload').onclick = load;
+    $('#batch').onclick = batchApply;
     onmessage = function(event) {
       var m = event.data.pluginMessage;
       if (!m) return;
       if (m.type === 'selection') {
+        selectionGroups = m.groups || 0;
         $('#selection').innerHTML = m.total
-          ? '<b>已选中 ' + m.total + ' 个图层</b>可填充图片：' + m.fillable + ' 个；可编辑文字：' + m.texts + ' 个。'
+          ? '<b>已选中 ' + m.total + ' 个图层</b>可单个填充：' + m.fillable + ' 图 + ' + m.texts + ' 文；可一键填充：' + selectionGroups + ' 组。'
           : '<b>还没有选中图层</b>请选中封面/头像图层和对应名称文本图层。';
       }
       if (m.type === 'success') message(m.message, 'ok');

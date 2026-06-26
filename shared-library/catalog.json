@@ -500,6 +500,906 @@
       "name": "我只是人间清醒了一点",
       "image": "covers/我只是人间清醒了一点.jpg",
       "source": "https://novelquickapp.com/detail?series_id=7553120734889921561"
+    },
+    {
+      "id": "drama-大明老朱的千古一相",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "大明：老朱的千古一相！",
+      "image": "covers/大明：老朱的千古一相！.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/0b6ee4526de3d1eb93da457f947490a5",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-重生后我带崽成了京城大佬",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "重生后，我带崽成了京城大佬",
+      "image": "covers/重生后，我带崽成了京城大佬.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/bc20e2a7efc820656891c299157071d5",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-彩票人生1",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "彩票人生1",
+      "image": "covers/彩票人生1.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/247e581f97608e0b778b68a75ba6888a",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-翰墨展风华",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "翰墨展风华",
+      "image": "covers/翰墨展风华.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/e6e3f9634b0c63d810574ecccc3667d8",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-我与神明共良缘",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "我与神明共良缘",
+      "image": "covers/我与神明共良缘.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/9ab5ebfdb302b40d85c9223137736d50",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-我在七零讨人嫌",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "我在七零讨人嫌",
+      "image": "covers/我在七零讨人嫌.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/03b8f27f76323e9a43cc6be8b13d3164",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-不管铁骑",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "不管铁骑",
+      "image": "covers/不管铁骑.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/3ffcc6de57e5e2d8642a7defbbec1833",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-星光蓝颜",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "星光蓝颜",
+      "image": "covers/星光蓝颜.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/1b7543d66b38607f8dfdeae973978349",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-青釉流霞",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "青釉流霞",
+      "image": "covers/青釉流霞.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/8618adb487db7ed8c93fa248bbab912c",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-捡漏我的财富全靠摸",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "捡漏我的财富全靠摸",
+      "image": "covers/捡漏我的财富全靠摸.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/f16ca2a58a406ae340d7604d70925806",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-惜月失魄",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "惜月失魄",
+      "image": "covers/惜月失魄.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/cfbe792f039efde4b65cc671e656772d",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-小叮饭来",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "小叮饭来",
+      "image": "covers/小叮饭来.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/d395b70fb7646f55a2b855dd9b4c8881",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-山野间的星光与苔痕",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "山野间的星光与苔痕",
+      "image": "covers/山野间的星光与苔痕.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/e33f8d9911494363bd536abbf17482e5",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-晶光秘境6",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "晶光秘境6",
+      "image": "covers/晶光秘境6.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ca8c1db7d490299ca918dd4b57820cb1",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-明珠吃瓜",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "明珠吃瓜",
+      "image": "covers/明珠吃瓜.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b9b237cc575bdf873d425aa47ec6dc74",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-比血统华夏谁没个牛掰祖宗",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "比血统？华夏谁没个牛掰祖宗",
+      "image": "covers/比血统？华夏谁没个牛掰祖宗.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/bcea913eb58d6ba825c9a030e9a97b01",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-从微光到星核",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "从微光到星核",
+      "image": "covers/从微光到星核.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/e3864c16574b47e17fe423d47bacd533",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-茫途侠影",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "茫途侠影",
+      "image": "covers/茫途侠影.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/87e4e959d62582c69d48ad8b54126857",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-一剑斩仙我废柴弟子剑神转世",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "一剑斩仙：我，废柴弟子，剑神转世！",
+      "image": "covers/一剑斩仙：我，废柴弟子，剑神转世！.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ec44e07fc27d0e1383a99e6ee59e908a",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-神咔怪鱼",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "神咔怪鱼",
+      "image": "covers/神咔怪鱼.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/5a563021b942146448fff60db00c250f",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-这鸡成精了第1季",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "这鸡成精了！第1季",
+      "image": "covers/这鸡成精了！第1季.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b50df0776f59d0dd0ac014e93ade5f4d",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-小芸太子妃",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "小芸太子妃",
+      "image": "covers/小芸太子妃.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b8e19a99266c36e432bff180eaed11a6",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-一叶镇世",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "一叶镇世",
+      "image": "covers/一叶镇世.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/0b2d256ab476c533a8c3fd5e3f1fc99c",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-未圆甜尽",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "未圆甜尽",
+      "image": "covers/未圆甜尽.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/f8fffe04122b17ac0d6a5e7023178f25",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-心尖宠妃",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "心尖宠妃",
+      "image": "covers/心尖宠妃.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/a51b7831646954238fb973d9cec9cd29",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-帝阙情深",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "帝阙情深",
+      "image": "covers/帝阙情深.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/c01dc0300af9260432cbe3b376f91e69",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-绝境靠自己",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "绝境靠自己",
+      "image": "covers/绝境靠自己.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/565f33501b038a9e737e40fd6fe96a08",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-藤壶姑娘",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "藤壶姑娘",
+      "image": "covers/藤壶姑娘.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/c606d738000eb97224a0641a56414009",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-重生八零予你救赎",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "重生八零予你救赎",
+      "image": "covers/重生八零予你救赎.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/4afb835514873aad9b456ab57730023a",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-带着全服物资闯终局",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "带着全服物资闯终局",
+      "image": "covers/带着全服物资闯终局.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b199d41cd20985864598f5e31054e8e4",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-逍遥一生",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "逍遥一生",
+      "image": "covers/逍遥一生.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ffd1ee5f4223aefbe593f3d447bf5757",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-欢欢搭讪",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "欢欢搭讪",
+      "image": "covers/欢欢搭讪.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b71c2c650d0e0c912063956c3c55c881",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-星柠变变",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "星柠变变",
+      "image": "covers/星柠变变.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/9772c0e2188d560f9dd4c93f04207b9d",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-新唐铸鼎",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "新唐铸鼎",
+      "image": "covers/新唐铸鼎.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/3a1e153f85654d11742410259f4da050",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-迷途匣子2",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "迷途匣子2",
+      "image": "covers/迷途匣子2.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/00c9a60b4e9d76731a6c4514f898fb7f",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-羽衣宰铺",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "羽衣宰铺",
+      "image": "covers/羽衣宰铺.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/301bb8e7787958bd1687f6b29b39cb72",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-神人试炼场",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "神人试炼场",
+      "image": "covers/神人试炼场.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/7d48194b8f00d0b0125fb01f2a4f3b3d",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-阿斗的逆袭",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "阿斗的逆袭",
+      "image": "covers/阿斗的逆袭.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/2f5e721dcdf102f4a7aab993754646de",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-流年清浅",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "流年清浅",
+      "image": "covers/流年清浅.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/f1a252909ba0d859c40965fafe1777b4",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-穿越成圣子开局被诬陷",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "穿越成圣子，开局被诬陷",
+      "image": "covers/穿越成圣子，开局被诬陷.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/69d92b27416a16894ca12554e7a397ec",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-歪修小僧",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "歪修小僧",
+      "image": "covers/歪修小僧.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/970aa71ce2a3ba384cdc20c19c093608",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-无上魔虾",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "无上魔虾",
+      "image": "covers/无上魔虾.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/331f7d59d1f61a6655263e0ff493550b",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-嫡女医心惊世风华第2季",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "嫡女医心：惊世风华第2季",
+      "image": "covers/嫡女医心：惊世风华第2季.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/6b0d5cdf96c7067a77560fc83ffb6647",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-剪坏的晚礼服",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "剪坏的晚礼服",
+      "image": "covers/剪坏的晚礼服.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/bf2a53c626bec388eaa58a474eb264a8",
+      "sourceTag": ""
+    },
+    {
+      "id": "drama-危险奶茶",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "危险奶茶",
+      "image": "covers/危险奶茶.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/e6c22ef2999e7ba1c9ef93f93f280db1",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-诡异游戏魅力破局",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "诡异游戏魅力破局",
+      "image": "covers/诡异游戏魅力破局.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/e36ad62fd5b7145893f467b8e656d25b",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-鸾飞鱼跃",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "鸾飞鱼跃",
+      "image": "covers/鸾飞鱼跃.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/215fb5cee516b75e0f2c7ffce31d05d1",
+      "sourceTag": "经典3d"
+    },
+    {
+      "id": "drama-红莲破阵哪吒战甲",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "红莲破阵：哪吒战甲",
+      "image": "covers/红莲破阵：哪吒战甲.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/caf352be8f50f44e4e82afd500eb16ad",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-水母娘娘",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "水母娘娘",
+      "image": "covers/水母娘娘.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/35d20433bd68b15eb2846d0b73c027c5",
+      "sourceTag": "经典2d"
+    },
+    {
+      "id": "drama-心动教授",
+      "kind": "drama",
+      "category": "漫剧",
+      "name": "心动教授",
+      "image": "covers/心动教授.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/bc11829d7d0c0a87cd0a62a3acd808c2",
+      "sourceTag": "表情包"
+    },
+    {
+      "id": "drama-驭局职场",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "驭局职场",
+      "image": "covers/驭局职场.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/4c16985ccffefdf1697bce3d62b26762",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-重生流放地从挖煤开始逆袭",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "重生流放地从挖煤开始逆袭",
+      "image": "covers/重生流放地从挖煤开始逆袭.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/5d6c5244c43df5e489f9f02df0aa1abb",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-造反成功父皇把废帝父子打包送我",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "造反成功，父皇把废帝父子打包送我",
+      "image": "covers/造反成功，父皇把废帝父子打包送我.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/037e07c04a27c8ae0499fde0d739d73c",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-洪荒我无限放贷功德",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "洪荒：我无限放贷功德",
+      "image": "covers/洪荒：我无限放贷功德.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/40e15ca2d37596d0448db07c7d517546",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-生死速度",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "生死速度",
+      "image": "covers/生死速度.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b4fc1b6132091a44935a35d681476b74",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-借车之祸电池变水泥",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "借车之祸电池变水泥",
+      "image": "covers/借车之祸电池变水泥.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/7d86103b6cd0c9ec3b2a072e6b979bf3",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-御剑斩九霄",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "御剑斩九霄",
+      "image": "covers/御剑斩九霄.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/227edab3b86ffc697a41b6a6bcf0b1be",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-掠雪镇寒陵",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "掠雪镇寒陵",
+      "image": "covers/掠雪镇寒陵.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ba67be32a0e893ee5463282143b96443",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-南城负念",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "南城负念",
+      "image": "covers/南城负念.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b069ee995a2b8c60c367bde5addfdc43",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-余老太的局中局",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "余老太的局中局",
+      "image": "covers/余老太的局中局.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ade10942c015f7a79e8787f365c4c31a",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-林晨意外穿越成为靖王",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "林晨意外穿越成为靖王",
+      "image": "covers/林晨意外穿越成为靖王.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/5aaafcff6f9bbae31761577cb9c7f763",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-无妄渡清辞",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "无妄渡清辞",
+      "image": "covers/无妄渡清辞.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ed7b02d75a0b01412dead0b11f744155",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-夜影诊所",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "夜影诊所",
+      "image": "covers/夜影诊所.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/c3a06ccb15de0009d5685ba082b914a2",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-极寒新生",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "极寒新生",
+      "image": "covers/极寒新生.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/db164f49eb22e1e0c67ba1e9c3ae616d",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-沈小姐的专属温柔",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "沈小姐的专属温柔",
+      "image": "covers/沈小姐的专属温柔.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/5ff2287a64a9a23bd7ff8d077ab1444c",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-赐婚王妃不做怨偶",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "赐婚王妃，不做怨偶",
+      "image": "covers/赐婚王妃，不做怨偶.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/c98184b3b346d661d3a3eab982bb5c01",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-冒充太子后被真太子抓包了",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "冒充太子后，被真太子抓包了",
+      "image": "covers/冒充太子后，被真太子抓包了.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/632e738d07aa91311d44ebab5167de04",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-替姐认亲我端了侯府二公子",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "替姐认亲，我端了侯府二公子",
+      "image": "covers/替姐认亲，我端了侯府二公子.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/d95c0339ff5b3e89c6a8736fc98acd1a",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-错发消息后他向我告白了",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "错发消息后，他向我告白了",
+      "image": "covers/错发消息后，他向我告白了.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/ffbc740935c332482cfbc56aaa5b16de",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-婚烬归故里",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "婚烬归故里",
+      "image": "covers/婚烬归故里.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/aa193a9ddbaa968239851676e09118da",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-开局一座坟结局一良辰",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "开局一座坟，结局一良辰",
+      "image": "covers/开局一座坟，结局一良辰.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/2fef98134cd73f1132191fb1bba70a97",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-一念心寒",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "一念心寒",
+      "image": "covers/一念心寒.png",
+      "source": "https://tosv.byted.org/obj/novel-pic/774cf8d157c205df2fe85eae1aa2a72f",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-重生后成为万人迷改写霸凌剧本",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "重生后成为万人迷，改写霸凌剧本",
+      "image": "covers/重生后成为万人迷，改写霸凌剧本.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/829d4472a0243ce4ceea5f8afacdad27",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-心凉复暖",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "心凉复暖",
+      "image": "covers/心凉复暖.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/b94cfd28a343fd3990233c27fe65c5eb",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-榕树下的星辰密语",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "榕树下的星辰密语",
+      "image": "covers/榕树下的星辰密语.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/edc6f651d8467b790c70159c6449dc59",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-君山有云",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "君山有云",
+      "image": "covers/君山有云.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/0000271732e5fae2a6d2637ba36fb32d",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-巷口槐树暖",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "巷口槐树暖",
+      "image": "covers/巷口槐树暖.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/815c3953ed2de60c7ddf000058d3911f",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-攀高终成空",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "攀高终成空",
+      "image": "covers/攀高终成空.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/f7f9371f0eb80e4c0be8f9026013a14e",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-重生后我护住了全家",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "重生后我护住了全家",
+      "image": "covers/重生后我护住了全家.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/a487f468d7b16c9d255bfccb5c17b06f",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-椴树蜜语从被欺到称王",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "椴树蜜语：从被欺到称王",
+      "image": "covers/椴树蜜语：从被欺到称王.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/0b724653e8543b80fe2fc802f8ef4518",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-心尖难哄",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "心尖难哄",
+      "image": "covers/心尖难哄.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/9cb7375a3ff45f631ae542fcb83d1791",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-九零老街的照相馆",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "九零老街的照相馆",
+      "image": "covers/九零老街的照相馆.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/041b215aa049d78ce2f42fea8ddd82da",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-妹控丧尸王是我哥",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "妹控丧尸王是我哥",
+      "image": "covers/妹控丧尸王是我哥.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/12e202b208dd9248add389a7d6fa48c8",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-田埂上的领头人一",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "田埂上的领头人（一）",
+      "image": "covers/田埂上的领头人（一）.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/1706d05ea15503ade02985d1e9c40b0f",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-废鼎提灯守山门",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "废鼎提灯守山门",
+      "image": "covers/废鼎提灯守山门.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/94b08e9d018295447b0652ef929ac968",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-开局缘尽系统让我遇见女老板",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "开局缘尽，系统让我遇见女老板",
+      "image": "covers/开局缘尽，系统让我遇见女老板.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/6952f63e3be81ae97fd5a9a023948e85",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-好好交税",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "好好交税",
+      "image": "covers/好好交税.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/285dd1fa48481713fef6dd11114920ac",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-提成换柠檬水",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "提成换柠檬水",
+      "image": "covers/提成换柠檬水.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/0c8d8848caa1144e5097713f2e098221",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-缘浅情深终究是错付余生",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "缘浅情深，终究是错付余生",
+      "image": "covers/缘浅情深，终究是错付余生.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/9eb7398cfcc3c343d1163fbf4ee3e004",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-万里以外更美丽",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "万里以外更美丽",
+      "image": "covers/万里以外更美丽.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/7370d84ad807f86eb7327b59dcb8a3e7",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-太后十九岁重整皇朝荣耀",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "太后十九岁，重整皇朝荣耀",
+      "image": "covers/太后十九岁，重整皇朝荣耀.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/f904ec9414aae69a538e98385b067a83",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-岁岁炮灰",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "岁岁炮灰",
+      "image": "covers/岁岁炮灰.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/04baeec56a1cb1728fbe0ab37653b4b4",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-晞光破暗来",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "晞光破暗来",
+      "image": "covers/晞光破暗来.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/7f94ed020b4077ccc1610534a69eb37b",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-风过旧痕",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "风过旧痕",
+      "image": "covers/风过旧痕.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/e88b596ce5b063e87bfd72783736ca90",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-瑶光之上",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "瑶光之上",
+      "image": "covers/瑶光之上.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/c18228e170cd3870aff4ca4708852470",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-喜自向阳",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "喜自向阳",
+      "image": "covers/喜自向阳.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/537452495a3cc14fb2a955252796f44e",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-十万绝境路线",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "十万绝境路线",
+      "image": "covers/十万绝境路线.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/0bf3b6349fa6a5979c60c3386dae9f8e",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-我的老公是首富",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "我的老公是首富",
+      "image": "covers/我的老公是首富.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/63d3888525afb6f629a2160a52d1b542",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-锈铁皮",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "锈铁皮",
+      "image": "covers/锈铁皮.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/008ab53120247b8551682758daeed878",
+      "sourceTag": "仿真人"
+    },
+    {
+      "id": "drama-心尖小萌妃",
+      "kind": "drama",
+      "category": "AI仿真人剧",
+      "name": "心尖小萌妃",
+      "image": "covers/心尖小萌妃.jpg",
+      "source": "https://tosv.byted.org/obj/novel-pic/f53a7400074800b380de255ce7598a50",
+      "sourceTag": "仿真人"
     }
   ],
   "categories": [
