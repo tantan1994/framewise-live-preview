@@ -1,21 +1,510 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-23",
+  "updatedAt": "2026-06-26",
   "items": [
-    { "id": "drama-夫人一个过肩摔瘫子总裁站起来了", "kind": "drama", "name": "夫人一个过肩摔，瘫子总裁站起来了", "image": "covers/夫人一个过肩摔，瘫子总裁站起来了.jpeg" },
-    { "id": "drama-爱我万岁", "kind": "drama", "name": "爱我万岁", "image": "covers/爱我万岁.jpeg" },
-    { "id": "drama-二嫁上上签", "kind": "drama", "name": "二嫁上上签", "image": "covers/二嫁上上签.jpeg" },
-    { "id": "drama-姐他真是我姐夫", "kind": "drama", "name": "姐，他真是我姐夫", "image": "covers/姐，他真是我姐夫.jpeg" },
-    { "id": "drama-十八岁太奶奶驾到重整家族荣耀", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀", "image": "covers/十八岁太奶奶驾到，重整家族荣耀.jpeg" },
-    { "id": "drama-十八岁太奶奶驾到重整家族荣耀第二部", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀第二部", "image": "covers/十八岁太奶奶驾到，重整家族荣耀第二部.jpeg" },
-    { "id": "drama-十八岁太奶奶驾到重整家族荣耀第三部", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀第三部", "image": "covers/十八岁太奶奶驾到，重整家族荣耀第三部.jpeg" },
-    { "id": "drama-十八岁太奶奶驾到重整家族荣耀第四部", "kind": "drama", "name": "十八岁太奶奶驾到，重整家族荣耀第四部", "image": "covers/十八岁太奶奶驾到，重整家族荣耀第四部.jpeg" },
-    { "id": "drama-人间烟火向阳行", "kind": "drama", "name": "人间烟火向阳行", "image": "covers/人间烟火向阳行.jpg" },
-    { "id": "actor-韩雨彤", "kind": "actor", "name": "韩雨彤", "image": "actors/韩雨彤.jpeg" },
-    { "id": "actor-李柯以", "kind": "actor", "name": "李柯以", "image": "actors/李柯以.jpeg" },
-    { "id": "actor-梁思伟", "kind": "actor", "name": "梁思伟", "image": "actors/梁思伟.jpeg" },
-    { "id": "actor-王培延", "kind": "actor", "name": "王培延", "image": "actors/王培延.jpeg" },
-    { "id": "actor-许顺利", "kind": "actor", "name": "许顺利", "image": "actors/许顺利.jpg" },
-    { "id": "actor-姚鸣萧", "kind": "actor", "name": "姚鸣萧", "image": "actors/姚鸣萧.jpg" }
+    {
+      "id": "drama-夫人一个过肩摔瘫子总裁站起来了",
+      "kind": "drama",
+      "name": "夫人一个过肩摔，瘫子总裁站起来了",
+      "image": "covers/夫人一个过肩摔，瘫子总裁站起来了.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-爱我万岁",
+      "kind": "drama",
+      "name": "爱我万岁",
+      "image": "covers/爱我万岁.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-二嫁上上签",
+      "kind": "drama",
+      "name": "二嫁上上签",
+      "image": "covers/二嫁上上签.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-姐他真是我姐夫",
+      "kind": "drama",
+      "name": "姐，他真是我姐夫",
+      "image": "covers/姐，他真是我姐夫.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-十八岁太奶奶驾到重整家族荣耀",
+      "kind": "drama",
+      "name": "十八岁太奶奶驾到，重整家族荣耀",
+      "image": "covers/十八岁太奶奶驾到，重整家族荣耀.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-十八岁太奶奶驾到重整家族荣耀第二部",
+      "kind": "drama",
+      "name": "十八岁太奶奶驾到，重整家族荣耀第二部",
+      "image": "covers/十八岁太奶奶驾到，重整家族荣耀第二部.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-十八岁太奶奶驾到重整家族荣耀第三部",
+      "kind": "drama",
+      "name": "十八岁太奶奶驾到，重整家族荣耀第三部",
+      "image": "covers/十八岁太奶奶驾到，重整家族荣耀第三部.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-十八岁太奶奶驾到重整家族荣耀第四部",
+      "kind": "drama",
+      "name": "十八岁太奶奶驾到，重整家族荣耀第四部",
+      "image": "covers/十八岁太奶奶驾到，重整家族荣耀第四部.jpeg",
+      "category": "真人剧"
+    },
+    {
+      "id": "drama-人间烟火向阳行",
+      "kind": "drama",
+      "name": "人间烟火向阳行",
+      "image": "covers/人间烟火向阳行.jpg",
+      "category": "真人剧"
+    },
+    {
+      "id": "actor-韩雨彤",
+      "kind": "actor",
+      "name": "韩雨彤",
+      "image": "actors/韩雨彤.jpeg"
+    },
+    {
+      "id": "actor-李柯以",
+      "kind": "actor",
+      "name": "李柯以",
+      "image": "actors/李柯以.jpeg"
+    },
+    {
+      "id": "actor-梁思伟",
+      "kind": "actor",
+      "name": "梁思伟",
+      "image": "actors/梁思伟.jpeg"
+    },
+    {
+      "id": "actor-王培延",
+      "kind": "actor",
+      "name": "王培延",
+      "image": "actors/王培延.jpeg"
+    },
+    {
+      "id": "actor-许顺利",
+      "kind": "actor",
+      "name": "许顺利",
+      "image": "actors/许顺利.jpg"
+    },
+    {
+      "id": "actor-姚鸣萧",
+      "kind": "actor",
+      "name": "姚鸣萧",
+      "image": "actors/姚鸣萧.jpg"
+    },
+    {
+      "id": "drama-虫儿飞",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "虫儿飞",
+      "image": "covers/虫儿飞.png",
+      "source": "https://novelquickapp.com/detail?series_id=7386856983703342104"
+    },
+    {
+      "id": "drama-闪婚妈咪竟是帮派团宠",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "闪婚妈咪竟是帮派团宠",
+      "image": "covers/闪婚妈咪竟是帮派团宠.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7553548256874089497"
+    },
+    {
+      "id": "drama-纸玫瑰",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "纸玫瑰",
+      "image": "covers/纸玫瑰.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7528322961632152601"
+    },
+    {
+      "id": "drama-对不起无人如我般爱你",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "对不起，无人如我般爱你",
+      "image": "covers/对不起，无人如我般爱你.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7614025091893955608"
+    },
+    {
+      "id": "drama-人间自有真情在",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "人间自有真情在",
+      "image": "covers/人间自有真情在.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7401047042614627353"
+    },
+    {
+      "id": "drama-扫黑",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "扫黑",
+      "image": "covers/扫黑.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7602268650346646552"
+    },
+    {
+      "id": "drama-以千入局",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "以千入局",
+      "image": "covers/以千入局.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7533147867020528702"
+    },
+    {
+      "id": "drama-远嫁千里归途遥遥",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "远嫁千里归途遥遥",
+      "image": "covers/远嫁千里归途遥遥.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7581464172865539134"
+    },
+    {
+      "id": "drama-被嫌弃的荣英的新生",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "被嫌弃的荣英的新生",
+      "image": "covers/被嫌弃的荣英的新生.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7594062000171256894"
+    },
+    {
+      "id": "drama-认亲后误入帮派成团宠",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "认亲后，误入帮派成团宠",
+      "image": "covers/认亲后，误入帮派成团宠.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7519042139091635262"
+    },
+    {
+      "id": "drama-破局炮灰全家觉醒计划",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "破局：炮灰全家觉醒计划",
+      "image": "covers/破局：炮灰全家觉醒计划.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7580319995226229785"
+    },
+    {
+      "id": "drama-惊龙",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "惊龙",
+      "image": "covers/惊龙.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7424084603226295321"
+    },
+    {
+      "id": "drama-疯癫开局八零辣妻带我飞",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "疯癫开局，八零辣妻带我飞",
+      "image": "covers/疯癫开局，八零辣妻带我飞.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7584276430784039961"
+    },
+    {
+      "id": "drama-将门弃妃",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "将门弃妃",
+      "image": "covers/将门弃妃.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7514986624690703385"
+    },
+    {
+      "id": "drama-婚内装穷我跑路了你发疯",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "婚内装穷？我跑路了你发疯",
+      "image": "covers/婚内装穷？我跑路了你发疯.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7577225812399639577"
+    },
+    {
+      "id": "drama-高铁偶遇",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "高铁偶遇",
+      "image": "covers/高铁偶遇.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7566165651287444542"
+    },
+    {
+      "id": "drama-掌心窥爱",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "掌心窥爱",
+      "image": "covers/掌心窥爱.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7572458140411628568"
+    },
+    {
+      "id": "drama-谁偷了我的录取通知书",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "谁偷了我的录取通知书",
+      "image": "covers/谁偷了我的录取通知书.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7433340051892735038"
+    },
+    {
+      "id": "drama-千金归来爹是王爷娘是公主",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "千金归来，爹是王爷娘是公主",
+      "image": "covers/千金归来，爹是王爷娘是公主.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7568367619389000729"
+    },
+    {
+      "id": "drama-重生捡漏1993",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "重生捡漏1993",
+      "image": "covers/重生捡漏1993.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7582931250059430936"
+    },
+    {
+      "id": "drama-七零好运娇娇女",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "七零好运娇娇女",
+      "image": "covers/七零好运娇娇女.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7583960216740318270"
+    },
+    {
+      "id": "drama-出狱后她被墨少宠上天",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "出狱后，她被墨少宠上天",
+      "image": "covers/出狱后，她被墨少宠上天.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7538715352587324440"
+    },
+    {
+      "id": "drama-我的婚姻不将就",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "我的婚姻不将就",
+      "image": "covers/我的婚姻不将就.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7641887406869711897"
+    },
+    {
+      "id": "drama-实习生将我买房的存款调换后",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "实习生将我买房的存款调换后",
+      "image": "covers/实习生将我买房的存款调换后.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7563487945034828825"
+    },
+    {
+      "id": "drama-绛色栀子",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "绛色栀子",
+      "image": "covers/绛色栀子.png",
+      "source": "https://novelquickapp.com/detail?series_id=7535302080605457433"
+    },
+    {
+      "id": "drama-娇哄月亮",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "娇哄月亮",
+      "image": "covers/娇哄月亮.png",
+      "source": "https://novelquickapp.com/detail?series_id=7477481084632976409"
+    },
+    {
+      "id": "drama-蜕变后老公求原谅",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "蜕变后老公求原谅",
+      "image": "covers/蜕变后老公求原谅.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7570619277816908862"
+    },
+    {
+      "id": "drama-穿越成太子我跟父皇对着干",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "穿越成太子，我跟父皇对着干",
+      "image": "covers/穿越成太子，我跟父皇对着干.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7583255945006812185"
+    },
+    {
+      "id": "drama-自从遇见你",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "自从遇见你",
+      "image": "covers/自从遇见你.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7537914882432191513"
+    },
+    {
+      "id": "drama-旧照凝霜失故主",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "旧照凝霜失故主",
+      "image": "covers/旧照凝霜失故主.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7586501135712652350"
+    },
+    {
+      "id": "drama-善意的救赎",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "善意的救赎",
+      "image": "covers/善意的救赎.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7548377918892674072"
+    },
+    {
+      "id": "drama-坠入情深时",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "坠入情深时",
+      "image": "covers/坠入情深时.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7592498546050337854"
+    },
+    {
+      "id": "drama-大小姐归来给妹妹撑腰",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "大小姐归来，给妹妹撑腰",
+      "image": "covers/大小姐归来，给妹妹撑腰.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7568801074832739352"
+    },
+    {
+      "id": "drama-从此鲜花赠自己",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "从此鲜花赠自己",
+      "image": "covers/从此鲜花赠自己.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7573561347317713982"
+    },
+    {
+      "id": "drama-都市豪仙这个赘婿有点无敌",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "都市豪仙，这个赘婿有点无敌",
+      "image": "covers/都市豪仙，这个赘婿有点无敌.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7625968880250260505"
+    },
+    {
+      "id": "drama-娇养东宫",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "娇养东宫",
+      "image": "covers/娇养东宫.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7585534254407240728"
+    },
+    {
+      "id": "drama-覆水不收旧时义",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "覆水不收旧时义",
+      "image": "covers/覆水不收旧时义.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7503413187652357145"
+    },
+    {
+      "id": "drama-爱情面包屑",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "爱情面包屑",
+      "image": "covers/爱情面包屑.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7605067250856365081"
+    },
+    {
+      "id": "drama-山有木兮木有枝",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "山有木兮木有枝",
+      "image": "covers/山有木兮木有枝.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7565735203646229566"
+    },
+    {
+      "id": "drama-听到腹中心声我果断抛弃腐朽婚姻",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "听到腹中心声，我果断抛弃腐朽婚姻",
+      "image": "covers/听到腹中心声，我果断抛弃腐朽婚姻.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7617684146202086462"
+    },
+    {
+      "id": "drama-修仙从长生不死开始",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "修仙从长生不死开始",
+      "image": "covers/修仙从长生不死开始.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7581456956997520446"
+    },
+    {
+      "id": "drama-潜入深渊",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "潜入深渊",
+      "image": "covers/潜入深渊.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7497154430744136728"
+    },
+    {
+      "id": "drama-别惹真公主她有仇是真报啊",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "别惹真公主，她有仇是真报啊",
+      "image": "covers/别惹真公主，她有仇是真报啊.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7612156006394514457"
+    },
+    {
+      "id": "drama-予你岁岁欢好",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "予你岁岁欢好",
+      "image": "covers/予你岁岁欢好.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7577820577994378264"
+    },
+    {
+      "id": "drama-女帝皇后不好惹",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "女帝皇后不好惹",
+      "image": "covers/女帝皇后不好惹.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7475918656514296894"
+    },
+    {
+      "id": "drama-重生不当冤大头校花你着急啥",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "重生不当冤大头，校花你着急啥",
+      "image": "covers/重生不当冤大头，校花你着急啥.png",
+      "source": "https://novelquickapp.com/detail?series_id=7521672862130785342"
+    },
+    {
+      "id": "drama-不爱后我自君临天下",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "不爱后，我自君临天下",
+      "image": "covers/不爱后，我自君临天下.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7579141280626658366"
+    },
+    {
+      "id": "drama-沉冤十八载我携女重登高位",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "沉冤十八载，我携女重登高位",
+      "image": "covers/沉冤十八载，我携女重登高位.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7568138596851403801"
+    },
+    {
+      "id": "drama-小师妹有空间",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "小师妹有空间",
+      "image": "covers/小师妹有空间.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7513854112790760510"
+    },
+    {
+      "id": "drama-我只是人间清醒了一点",
+      "kind": "drama",
+      "category": "真人剧",
+      "name": "我只是人间清醒了一点",
+      "image": "covers/我只是人间清醒了一点.jpg",
+      "source": "https://novelquickapp.com/detail?series_id=7553120734889921561"
+    }
+  ],
+  "categories": [
+    "真人剧",
+    "漫剧",
+    "AI仿真人剧"
   ]
 }
