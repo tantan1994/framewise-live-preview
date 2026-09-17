@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-06-26",
+  "version": 2,
+  "updatedAt": "2026-09-17",
   "items": [
     {
       "id": "drama-夫人一个过肩摔瘫子总裁站起来了",
@@ -1400,6 +1400,806 @@
       "image": "covers/心尖小萌妃.jpg",
       "source": "https://tosv.byted.org/obj/novel-pic/f53a7400074800b380de255ce7598a50",
       "sourceTag": "仿真人"
+    },
+    {
+      "id": "novel-7665193065501445145",
+      "kind": "novel",
+      "category": "男频",
+      "name": "神通者",
+      "image": "novels/7665193065501445145.jpg",
+      "source": "https://fanqienovel.com/page/7665193065501445145"
+    },
+    {
+      "id": "novel-7143038691944959011",
+      "kind": "novel",
+      "category": "男频",
+      "name": "十日终焉",
+      "image": "novels/7143038691944959011.jpg",
+      "source": "https://fanqienovel.com/page/7143038691944959011"
+    },
+    {
+      "id": "novel-7276384138653862966",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我不是戏神",
+      "image": "novels/7276384138653862966.jpg",
+      "source": "https://fanqienovel.com/page/7276384138653862966"
+    },
+    {
+      "id": "novel-7590221243043826712",
+      "kind": "novel",
+      "category": "男频",
+      "name": "这个游戏不对劲，我挖矿成神！",
+      "image": "novels/7590221243043826712.jpg",
+      "source": "https://fanqienovel.com/page/7590221243043826712"
+    },
+    {
+      "id": "novel-7552067105378536473",
+      "kind": "novel",
+      "category": "男频",
+      "name": "规则怪谈：无所谓，系统会出手",
+      "image": "novels/7552067105378536473.jpg",
+      "source": "https://fanqienovel.com/page/7552067105378536473"
+    },
+    {
+      "id": "novel-7650499837250522137",
+      "kind": "novel",
+      "category": "男频",
+      "name": "系统想害我，我选择上交国家",
+      "image": "novels/7650499837250522137.jpg",
+      "source": "https://fanqienovel.com/page/7650499837250522137"
+    },
+    {
+      "id": "novel-6982529841564224526",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我在精神病院学斩神",
+      "image": "novels/6982529841564224526.jpg",
+      "source": "https://fanqienovel.com/page/6982529841564224526"
+    },
+    {
+      "id": "novel-7138249318909086727",
+      "kind": "novel",
+      "category": "男频",
+      "name": "天渊",
+      "image": "novels/7138249318909086727.jpg",
+      "source": "https://fanqienovel.com/page/7138249318909086727"
+    },
+    {
+      "id": "novel-7623686597409508376",
+      "kind": "novel",
+      "category": "男频",
+      "name": "全球死考：刚下刑场你让我去考试",
+      "image": "novels/7623686597409508376.jpg",
+      "source": "https://fanqienovel.com/page/7623686597409508376"
+    },
+    {
+      "id": "novel-7504849932138859545",
+      "kind": "novel",
+      "category": "男频",
+      "name": "时停起手，邪神也得给我跪下！",
+      "image": "novels/7504849932138859545.jpg",
+      "source": "https://fanqienovel.com/page/7504849932138859545"
+    },
+    {
+      "id": "novel-7636702239288986649",
+      "kind": "novel",
+      "category": "男频",
+      "name": "文字武侠：开局破庙夜会帮主夫人",
+      "image": "novels/7636702239288986649.jpg",
+      "source": "https://fanqienovel.com/page/7636702239288986649"
+    },
+    {
+      "id": "novel-7147596144942517284",
+      "kind": "novel",
+      "category": "男频",
+      "name": "开局长生万古，苟到天荒地老",
+      "image": "novels/7147596144942517284.jpg",
+      "source": "https://fanqienovel.com/page/7147596144942517284"
+    },
+    {
+      "id": "novel-6883748331202284558",
+      "kind": "novel",
+      "category": "男频",
+      "name": "惊鸿",
+      "image": "novels/6883748331202284558.jpg",
+      "source": "https://fanqienovel.com/page/6883748331202284558"
+    },
+    {
+      "id": "novel-7592279900040465433",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我操作的少女正在成为旧日之主",
+      "image": "novels/7592279900040465433.jpg",
+      "source": "https://fanqienovel.com/page/7592279900040465433"
+    },
+    {
+      "id": "novel-7571820285721054233",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我一写网文的，你让我混娱乐圈？",
+      "image": "novels/7571820285721054233.jpg",
+      "source": "https://fanqienovel.com/page/7571820285721054233"
+    },
+    {
+      "id": "novel-7649664815161412670",
+      "kind": "novel",
+      "category": "男频",
+      "name": "西游降临：开局拜师通天教主！",
+      "image": "novels/7649664815161412670.jpg",
+      "source": "https://fanqienovel.com/page/7649664815161412670"
+    },
+    {
+      "id": "novel-7646327973087300670",
+      "kind": "novel",
+      "category": "男频",
+      "name": "公安局长之扫黑风暴",
+      "image": "novels/7646327973087300670.jpg",
+      "source": "https://fanqienovel.com/page/7646327973087300670"
+    },
+    {
+      "id": "novel-7673830652382301209",
+      "kind": "novel",
+      "category": "男频",
+      "name": "点子王行动哥随便弟，三人行很刑",
+      "image": "novels/7673830652382301209.jpg",
+      "source": "https://fanqienovel.com/page/7673830652382301209"
+    },
+    {
+      "id": "novel-7421167583522458648",
+      "kind": "novel",
+      "category": "男频",
+      "name": "大一实习，你跑去749收容怪物",
+      "image": "novels/7421167583522458648.jpg",
+      "source": "https://fanqienovel.com/page/7421167583522458648"
+    },
+    {
+      "id": "novel-7656758374066834457",
+      "kind": "novel",
+      "category": "男频",
+      "name": "诡舍2",
+      "image": "novels/7656758374066834457.jpg",
+      "source": "https://fanqienovel.com/page/7656758374066834457"
+    },
+    {
+      "id": "novel-7256784068786785336",
+      "kind": "novel",
+      "category": "男频",
+      "name": "诡舍",
+      "image": "novels/7256784068786785336.jpg",
+      "source": "https://fanqienovel.com/page/7256784068786785336"
+    },
+    {
+      "id": "novel-7087872099557051400",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我以狐仙镇百鬼",
+      "image": "novels/7087872099557051400.jpg",
+      "source": "https://fanqienovel.com/page/7087872099557051400"
+    },
+    {
+      "id": "novel-7634359094794521662",
+      "kind": "novel",
+      "category": "男频",
+      "name": "全民恐怖求生：我觉醒加点序列！",
+      "image": "novels/7634359094794521662.jpg",
+      "source": "https://fanqienovel.com/page/7634359094794521662"
+    },
+    {
+      "id": "novel-7638520026256903193",
+      "kind": "novel",
+      "category": "男频",
+      "name": "觉醒伪神，神明弃我，我自为神",
+      "image": "novels/7638520026256903193.jpg",
+      "source": "https://fanqienovel.com/page/7638520026256903193"
+    },
+    {
+      "id": "novel-7462405945180572697",
+      "kind": "novel",
+      "category": "男频",
+      "name": "你们刷怪啊，刷我干嘛！",
+      "image": "novels/7462405945180572697.jpg",
+      "source": "https://fanqienovel.com/page/7462405945180572697"
+    },
+    {
+      "id": "novel-7338034838672247833",
+      "kind": "novel",
+      "category": "男频",
+      "name": "诸神愚戏",
+      "image": "novels/7338034838672247833.jpg",
+      "source": "https://fanqienovel.com/page/7338034838672247833"
+    },
+    {
+      "id": "novel-7630378904976362520",
+      "kind": "novel",
+      "category": "男频",
+      "name": "谁把我仙侠游戏退出键扣了？",
+      "image": "novels/7630378904976362520.jpg",
+      "source": "https://fanqienovel.com/page/7630378904976362520"
+    },
+    {
+      "id": "novel-7501902210347830334",
+      "kind": "novel",
+      "category": "男频",
+      "name": "公考逆袭：从面试开始一路攀登",
+      "image": "novels/7501902210347830334.jpg",
+      "source": "https://fanqienovel.com/page/7501902210347830334"
+    },
+    {
+      "id": "novel-7346057588347259929",
+      "kind": "novel",
+      "category": "男频",
+      "name": "序列：吃神者",
+      "image": "novels/7346057588347259929.jpg",
+      "source": "https://fanqienovel.com/page/7346057588347259929"
+    },
+    {
+      "id": "novel-7077516958534470656",
+      "kind": "novel",
+      "category": "男频",
+      "name": "凡骨",
+      "image": "novels/7077516958534470656.jpg",
+      "source": "https://fanqienovel.com/page/7077516958534470656"
+    },
+    {
+      "id": "novel-7414011485757639704",
+      "kind": "novel",
+      "category": "男频",
+      "name": "冒姓琅琊",
+      "image": "novels/7414011485757639704.jpg",
+      "source": "https://fanqienovel.com/page/7414011485757639704"
+    },
+    {
+      "id": "novel-7544766518324644889",
+      "kind": "novel",
+      "category": "男频",
+      "name": "从变身少女开始斩妖除魔",
+      "image": "novels/7544766518324644889.jpg",
+      "source": "https://fanqienovel.com/page/7544766518324644889"
+    },
+    {
+      "id": "novel-7259957689197792297",
+      "kind": "novel",
+      "category": "男频",
+      "name": "开局停职？我转投纪委调查组",
+      "image": "novels/7259957689197792297.jpg",
+      "source": "https://fanqienovel.com/page/7259957689197792297"
+    },
+    {
+      "id": "novel-6985246250434038815",
+      "kind": "novel",
+      "category": "男频",
+      "name": "北派盗墓笔记",
+      "image": "novels/6985246250434038815.jpg",
+      "source": "https://fanqienovel.com/page/6985246250434038815"
+    },
+    {
+      "id": "novel-7624183298310278168",
+      "kind": "novel",
+      "category": "男频",
+      "name": "从金丹仙族开始的老祖之路！",
+      "image": "novels/7624183298310278168.jpg",
+      "source": "https://fanqienovel.com/page/7624183298310278168"
+    },
+    {
+      "id": "novel-7649016386907278361",
+      "kind": "novel",
+      "category": "男频",
+      "name": "实习教出金牌班，家长要换班主任",
+      "image": "novels/7649016386907278361.jpg",
+      "source": "https://fanqienovel.com/page/7649016386907278361"
+    },
+    {
+      "id": "novel-7228940788351110182",
+      "kind": "novel",
+      "category": "男频",
+      "name": "系统赋我长生，我熬死了所有人",
+      "image": "novels/7228940788351110182.jpg",
+      "source": "https://fanqienovel.com/page/7228940788351110182"
+    },
+    {
+      "id": "novel-7326876174989134910",
+      "kind": "novel",
+      "category": "男频",
+      "name": "天眼风水师",
+      "image": "novels/7326876174989134910.jpg",
+      "source": "https://fanqienovel.com/page/7326876174989134910"
+    },
+    {
+      "id": "novel-7661298205925051417",
+      "kind": "novel",
+      "category": "男频",
+      "name": "说好造桥游戏，打穿天山什么鬼？",
+      "image": "novels/7661298205925051417.jpg",
+      "source": "https://fanqienovel.com/page/7661298205925051417"
+    },
+    {
+      "id": "novel-7666426115187018776",
+      "kind": "novel",
+      "category": "男频",
+      "name": "四合院：从亮剑到人民的名义",
+      "image": "novels/7666426115187018776.jpg",
+      "source": "https://fanqienovel.com/page/7666426115187018776"
+    },
+    {
+      "id": "novel-7624202089656241177",
+      "kind": "novel",
+      "category": "男频",
+      "name": "顶级妇医：开局查出名媛怀外教种",
+      "image": "novels/7624202089656241177.jpg",
+      "source": "https://fanqienovel.com/page/7624202089656241177"
+    },
+    {
+      "id": "novel-7640024268096408601",
+      "kind": "novel",
+      "category": "男频",
+      "name": "大唐长生者，但开局在玄武门？",
+      "image": "novels/7640024268096408601.jpg",
+      "source": "https://fanqienovel.com/page/7640024268096408601"
+    },
+    {
+      "id": "novel-7510110767501282366",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我，旧日至高位格，出手无视规则",
+      "image": "novels/7510110767501282366.jpg",
+      "source": "https://fanqienovel.com/page/7510110767501282366"
+    },
+    {
+      "id": "novel-7623581376586976281",
+      "kind": "novel",
+      "category": "男频",
+      "name": "归国留洋水货？叫我芯片之父！",
+      "image": "novels/7623581376586976281.jpg",
+      "source": "https://fanqienovel.com/page/7623581376586976281"
+    },
+    {
+      "id": "novel-7670426225600367640",
+      "kind": "novel",
+      "category": "男频",
+      "name": "变身顶美，有颜真能为所欲为",
+      "image": "novels/7670426225600367640.jpg",
+      "source": "https://fanqienovel.com/page/7670426225600367640"
+    },
+    {
+      "id": "novel-7583949514948496409",
+      "kind": "novel",
+      "category": "男频",
+      "name": "一年抽取一词条，模拟的也可以？",
+      "image": "novels/7583949514948496409.jpg",
+      "source": "https://fanqienovel.com/page/7583949514948496409"
+    },
+    {
+      "id": "novel-7212512693792541734",
+      "kind": "novel",
+      "category": "男频",
+      "name": "宦海官途",
+      "image": "novels/7212512693792541734.jpg",
+      "source": "https://fanqienovel.com/page/7212512693792541734"
+    },
+    {
+      "id": "novel-7667935194233441305",
+      "kind": "novel",
+      "category": "男频",
+      "name": "纨绔大少是邪神，眷属全部是美女",
+      "image": "novels/7667935194233441305.jpg",
+      "source": "https://fanqienovel.com/page/7667935194233441305"
+    },
+    {
+      "id": "novel-7363901972950305854",
+      "kind": "novel",
+      "category": "男频",
+      "name": "我，最强毒士，女帝直呼活阎王",
+      "image": "novels/7363901972950305854.jpg",
+      "source": "https://fanqienovel.com/page/7363901972950305854"
+    },
+    {
+      "id": "novel-7658515148906187800",
+      "kind": "novel",
+      "category": "男频",
+      "name": "直播我和徐妙云，老朱全家破防了",
+      "image": "novels/7658515148906187800.jpg",
+      "source": "https://fanqienovel.com/page/7658515148906187800"
+    },
+    {
+      "id": "novel-7361653460183288894",
+      "kind": "novel",
+      "category": "女频",
+      "name": "游戏入侵：抢男女主机缘会上瘾诶",
+      "image": "novels/7361653460183288894.jpg",
+      "source": "https://fanqienovel.com/page/7361653460183288894"
+    },
+    {
+      "id": "novel-7635875875430337560",
+      "kind": "novel",
+      "category": "女频",
+      "name": "京圈公主抢我男友，我结婚她疯了",
+      "image": "novels/7635875875430337560.jpg",
+      "source": "https://fanqienovel.com/page/7635875875430337560"
+    },
+    {
+      "id": "novel-7654572647035964440",
+      "kind": "novel",
+      "category": "女频",
+      "name": "小炮灰变美后，抢了财阀太子爷",
+      "image": "novels/7654572647035964440.jpg",
+      "source": "https://fanqienovel.com/page/7654572647035964440"
+    },
+    {
+      "id": "novel-7613292466841586713",
+      "kind": "novel",
+      "category": "女频",
+      "name": "剑宗小魔童，三岁半超凶",
+      "image": "novels/7613292466841586713.jpg",
+      "source": "https://fanqienovel.com/page/7613292466841586713"
+    },
+    {
+      "id": "novel-7383825464940317720",
+      "kind": "novel",
+      "category": "女频",
+      "name": "听说我死后成了反派白月光",
+      "image": "novels/7383825464940317720.jpg",
+      "source": "https://fanqienovel.com/page/7383825464940317720"
+    },
+    {
+      "id": "novel-7654827436672044056",
+      "kind": "novel",
+      "category": "女频",
+      "name": "作精不吸血后，恋爱脑糙汉追着亲",
+      "image": "novels/7654827436672044056.jpg",
+      "source": "https://fanqienovel.com/page/7654827436672044056"
+    },
+    {
+      "id": "novel-7614709148751498302",
+      "kind": "novel",
+      "category": "女频",
+      "name": "七零：小狐狸崽在线找爹",
+      "image": "novels/7614709148751498302.jpg",
+      "source": "https://fanqienovel.com/page/7614709148751498302"
+    },
+    {
+      "id": "novel-7654742513151921177",
+      "kind": "novel",
+      "category": "女频",
+      "name": "温夜潮湿",
+      "image": "novels/7654742513151921177.jpg",
+      "source": "https://fanqienovel.com/page/7654742513151921177"
+    },
+    {
+      "id": "novel-7640326222639008792",
+      "kind": "novel",
+      "category": "女频",
+      "name": "脑子一热，强吻了我哥的同窗好友",
+      "image": "novels/7640326222639008792.jpg",
+      "source": "https://fanqienovel.com/page/7640326222639008792"
+    },
+    {
+      "id": "novel-7630006960976317502",
+      "kind": "novel",
+      "category": "女频",
+      "name": "替嫁残疾英雄，婆家宠我青云志",
+      "image": "novels/7630006960976317502.jpg",
+      "source": "https://fanqienovel.com/page/7630006960976317502"
+    },
+    {
+      "id": "novel-7513576804762782745",
+      "kind": "novel",
+      "category": "女频",
+      "name": "去你的真假千金，她是人族首席",
+      "image": "novels/7513576804762782745.jpg",
+      "source": "https://fanqienovel.com/page/7513576804762782745"
+    },
+    {
+      "id": "novel-7654283402031402046",
+      "kind": "novel",
+      "category": "女频",
+      "name": "穿成财阀太子爷的捞子前男友",
+      "image": "novels/7654283402031402046.jpg",
+      "source": "https://fanqienovel.com/page/7654283402031402046"
+    },
+    {
+      "id": "novel-7652765843931024446",
+      "kind": "novel",
+      "category": "女频",
+      "name": "万人迷神颜顶流只想演炮灰",
+      "image": "novels/7652765843931024446.jpg",
+      "source": "https://fanqienovel.com/page/7652765843931024446"
+    },
+    {
+      "id": "novel-7564991852789632062",
+      "kind": "novel",
+      "category": "女频",
+      "name": "70重生归来：渣夫贱妹一起踹",
+      "image": "novels/7564991852789632062.jpg",
+      "source": "https://fanqienovel.com/page/7564991852789632062"
+    },
+    {
+      "id": "novel-7582240771588230206",
+      "kind": "novel",
+      "category": "女频",
+      "name": "溯雨信笺",
+      "image": "novels/7582240771588230206.jpg",
+      "source": "https://fanqienovel.com/page/7582240771588230206"
+    },
+    {
+      "id": "novel-7663152833243401278",
+      "kind": "novel",
+      "category": "女频",
+      "name": "我在韩国贵族高中假装财阀二代",
+      "image": "novels/7663152833243401278.jpg",
+      "source": "https://fanqienovel.com/page/7663152833243401278"
+    },
+    {
+      "id": "novel-7616938527665703998",
+      "kind": "novel",
+      "category": "女频",
+      "name": "舔你时你出轨，提离婚你后悔",
+      "image": "novels/7616938527665703998.jpg",
+      "source": "https://fanqienovel.com/page/7616938527665703998"
+    },
+    {
+      "id": "novel-7666468801357040665",
+      "kind": "novel",
+      "category": "女频",
+      "name": "备用联系人",
+      "image": "novels/7666468801357040665.jpg",
+      "source": "https://fanqienovel.com/page/7666468801357040665"
+    },
+    {
+      "id": "novel-7639351601617980440",
+      "kind": "novel",
+      "category": "女频",
+      "name": "嫁给前男友的好兄弟",
+      "image": "novels/7639351601617980440.jpg",
+      "source": "https://fanqienovel.com/page/7639351601617980440"
+    },
+    {
+      "id": "novel-7641635688978336792",
+      "kind": "novel",
+      "category": "女频",
+      "name": "穿成财阀太子爷的作精前女友",
+      "image": "novels/7641635688978336792.jpg",
+      "source": "https://fanqienovel.com/page/7641635688978336792"
+    },
+    {
+      "id": "novel-7627509785704811545",
+      "kind": "novel",
+      "category": "女频",
+      "name": "穿书兽世：恶雌她终于吃上好的了",
+      "image": "novels/7627509785704811545.jpg",
+      "source": "https://fanqienovel.com/page/7627509785704811545"
+    },
+    {
+      "id": "novel-7653758528590449726",
+      "kind": "novel",
+      "category": "女频",
+      "name": "有种生物叫魅魔他实在难以对付",
+      "image": "novels/7653758528590449726.jpg",
+      "source": "https://fanqienovel.com/page/7653758528590449726"
+    },
+    {
+      "id": "novel-7648256759785589784",
+      "kind": "novel",
+      "category": "女频",
+      "name": "入宫即高位，我是陛下表妹我怕谁",
+      "image": "novels/7648256759785589784.jpg",
+      "source": "https://fanqienovel.com/page/7648256759785589784"
+    },
+    {
+      "id": "novel-7650278598724570137",
+      "kind": "novel",
+      "category": "女频",
+      "name": "你是真的想修仙吗？感觉不对劲呢",
+      "image": "novels/7650278598724570137.jpg",
+      "source": "https://fanqienovel.com/page/7650278598724570137"
+    },
+    {
+      "id": "novel-7342400869209492542",
+      "kind": "novel",
+      "category": "女频",
+      "name": "癫，都癫，癫点好啊",
+      "image": "novels/7342400869209492542.jpg",
+      "source": "https://fanqienovel.com/page/7342400869209492542"
+    },
+    {
+      "id": "novel-7613718162839718937",
+      "kind": "novel",
+      "category": "女频",
+      "name": "不是疯批反派吗？怎么红眼要抱抱",
+      "image": "novels/7613718162839718937.jpg",
+      "source": "https://fanqienovel.com/page/7613718162839718937"
+    },
+    {
+      "id": "novel-7632978161973595161",
+      "kind": "novel",
+      "category": "女频",
+      "name": "宿舍求生：从刷广告开始变强",
+      "image": "novels/7632978161973595161.jpg",
+      "source": "https://fanqienovel.com/page/7632978161973595161"
+    },
+    {
+      "id": "novel-7660590811435781182",
+      "kind": "novel",
+      "category": "女频",
+      "name": "老板是顶级魅魔，我睡一次没事吧",
+      "image": "novels/7660590811435781182.jpg",
+      "source": "https://fanqienovel.com/page/7660590811435781182"
+    },
+    {
+      "id": "novel-7556546213781195801",
+      "kind": "novel",
+      "category": "女频",
+      "name": "惊！下乡的女知青竟是顶级雇佣兵",
+      "image": "novels/7556546213781195801.jpg",
+      "source": "https://fanqienovel.com/page/7556546213781195801"
+    },
+    {
+      "id": "novel-7547672257322028056",
+      "kind": "novel",
+      "category": "女频",
+      "name": "假千金还在演，我一心搞科研",
+      "image": "novels/7547672257322028056.jpg",
+      "source": "https://fanqienovel.com/page/7547672257322028056"
+    },
+    {
+      "id": "novel-7209807729718725665",
+      "kind": "novel",
+      "category": "女频",
+      "name": "反派儿子你跪下，妈求你点事",
+      "image": "novels/7209807729718725665.jpg",
+      "source": "https://fanqienovel.com/page/7209807729718725665"
+    },
+    {
+      "id": "novel-7448581895861849112",
+      "kind": "novel",
+      "category": "女频",
+      "name": "公路求生榜一说她要走到公路尽头",
+      "image": "novels/7448581895861849112.jpg",
+      "source": "https://fanqienovel.com/page/7448581895861849112"
+    },
+    {
+      "id": "novel-7633763452418280472",
+      "kind": "novel",
+      "category": "女频",
+      "name": "家产争夺赛！假千金靠作死赢麻了",
+      "image": "novels/7633763452418280472.jpg",
+      "source": "https://fanqienovel.com/page/7633763452418280472"
+    },
+    {
+      "id": "novel-7665000214758968345",
+      "kind": "novel",
+      "category": "女频",
+      "name": "村女田小满",
+      "image": "novels/7665000214758968345.jpg",
+      "source": "https://fanqienovel.com/page/7665000214758968345"
+    },
+    {
+      "id": "novel-7635504565827161112",
+      "kind": "novel",
+      "category": "女频",
+      "name": "恶毒女配学乖后，阴湿大佬上瘾了",
+      "image": "novels/7635504565827161112.jpg",
+      "source": "https://fanqienovel.com/page/7635504565827161112"
+    },
+    {
+      "id": "novel-7134523177480227854",
+      "kind": "novel",
+      "category": "女频",
+      "name": "满门反派疯批，唯有师妹逗比",
+      "image": "novels/7134523177480227854.jpg",
+      "source": "https://fanqienovel.com/page/7134523177480227854"
+    },
+    {
+      "id": "novel-7618487184017853465",
+      "kind": "novel",
+      "category": "女频",
+      "name": "皇上表弟说他恕难从命",
+      "image": "novels/7618487184017853465.jpg",
+      "source": "https://fanqienovel.com/page/7618487184017853465"
+    },
+    {
+      "id": "novel-7655680332317871166",
+      "kind": "novel",
+      "category": "女频",
+      "name": "村女刘丽",
+      "image": "novels/7655680332317871166.jpg",
+      "source": "https://fanqienovel.com/page/7655680332317871166"
+    },
+    {
+      "id": "novel-7628454764392500249",
+      "kind": "novel",
+      "category": "女频",
+      "name": "极寒末世，我跟着重生者买买买",
+      "image": "novels/7628454764392500249.jpg",
+      "source": "https://fanqienovel.com/page/7628454764392500249"
+    },
+    {
+      "id": "novel-7574398565431135256",
+      "kind": "novel",
+      "category": "女频",
+      "name": "认路人甲当爹后我喜提反派全家桶",
+      "image": "novels/7574398565431135256.jpg",
+      "source": "https://fanqienovel.com/page/7574398565431135256"
+    },
+    {
+      "id": "novel-7470142203893926936",
+      "kind": "novel",
+      "category": "女频",
+      "name": "怎敌她动人",
+      "image": "novels/7470142203893926936.jpg",
+      "source": "https://fanqienovel.com/page/7470142203893926936"
+    },
+    {
+      "id": "novel-7626363626642754584",
+      "kind": "novel",
+      "category": "女频",
+      "name": "冒名顶替真千金后，嫁入了豪门",
+      "image": "novels/7626363626642754584.jpg",
+      "source": "https://fanqienovel.com/page/7626363626642754584"
+    },
+    {
+      "id": "novel-7541902927942667288",
+      "kind": "novel",
+      "category": "女频",
+      "name": "酒醉进错房，我怀上了豪门继承人",
+      "image": "novels/7541902927942667288.jpg",
+      "source": "https://fanqienovel.com/page/7541902927942667288"
+    },
+    {
+      "id": "novel-7600899075172486168",
+      "kind": "novel",
+      "category": "女频",
+      "name": "盛夏青苹果",
+      "image": "novels/7600899075172486168.jpg",
+      "source": "https://fanqienovel.com/page/7600899075172486168"
+    },
+    {
+      "id": "novel-7647719051149462590",
+      "kind": "novel",
+      "category": "女频",
+      "name": "闺蜜你的男友喜欢我呢",
+      "image": "novels/7647719051149462590.jpg",
+      "source": "https://fanqienovel.com/page/7647719051149462590"
+    },
+    {
+      "id": "novel-7573564582329863230",
+      "kind": "novel",
+      "category": "女频",
+      "name": "前男友劈腿妹妹，我闪婚他疯了",
+      "image": "novels/7573564582329863230.jpg",
+      "source": "https://fanqienovel.com/page/7573564582329863230"
+    },
+    {
+      "id": "novel-7634865602368113688",
+      "kind": "novel",
+      "category": "女频",
+      "name": "冒充大佬女友被逮，按头转正",
+      "image": "novels/7634865602368113688.jpg",
+      "source": "https://fanqienovel.com/page/7634865602368113688"
+    },
+    {
+      "id": "novel-7615645509008493593",
+      "kind": "novel",
+      "category": "女频",
+      "name": "全民躲猫猫：疯批美人她满级天眼",
+      "image": "novels/7615645509008493593.jpg",
+      "source": "https://fanqienovel.com/page/7615645509008493593"
+    },
+    {
+      "id": "novel-7655245523447729177",
+      "kind": "novel",
+      "category": "女频",
+      "name": "枝上蘅",
+      "image": "novels/7655245523447729177.jpg",
+      "source": "https://fanqienovel.com/page/7655245523447729177"
+    },
+    {
+      "id": "novel-7650564175827045438",
+      "kind": "novel",
+      "category": "女频",
+      "name": "穿成恶毒女配后，被权臣强夺了",
+      "image": "novels/7650564175827045438.jpg",
+      "source": "https://fanqienovel.com/page/7650564175827045438"
     }
   ],
   "categories": [

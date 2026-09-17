@@ -1,4 +1,4 @@
-figma.showUI(__html__, { width: 400, height: 620, title: 'Fillmate · 共享内容填充' });
+figma.showUI(__html__, { width: 400, height: 678, title: 'Fillmate · 共享内容填充' });
 
 function selectedNodes() { return figma.currentPage.selection; }
 function canReceiveImage(node) {

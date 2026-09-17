@@ -1,13 +1,17 @@
 {
   "name": "Fillmate · 共享内容填充",
-  "id": "fillmate-content-fill-local",
+  "id": "1653328578327611462",
   "api": "1.0.0",
   "main": "code.js",
   "ui": "ui.html",
-  "editorType": ["figma"],
+  "editorType": [
+    "figma"
+  ],
   "documentAccess": "dynamic-page",
   "networkAccess": {
-    "allowedDomains": ["https://raw.githubusercontent.com"],
-    "reasoning": "从 GitHub 的公开共享素材库读取封图和演员头像。"
+    "allowedDomains": [
+      "https://raw.githubusercontent.com"
+    ],
+    "reasoning": "从 GitHub 的公开共享素材库读取短剧封图、小说书封和演员头像。"
   }
 }

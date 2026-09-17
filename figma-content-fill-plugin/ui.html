@@ -4,72 +4,64 @@
   <meta charset="UTF-8" />
   <style>
     * { box-sizing: border-box; }
-    body { margin: 0; padding: 17px; color: #202020; background: #fff; font: 12px Inter, Arial, sans-serif; }
-    h1 { margin: 0; font-size: 16px; }
-    .intro { margin: 6px 0 13px; color: #6e6e6e; line-height: 1.5; }
-    .selection { padding: 10px 11px; border-radius: 8px; background: #f4f4f4; color: #666; line-height: 1.45; }
-    .selection b { display: block; color: #222; margin-bottom: 2px; }
-    .toolbar { display: flex; gap: 8px; margin: 14px 0 10px; }
-    .search { width: 100%; height: 32px; border: 1px solid #d5d5d5; border-radius: 6px; padding: 0 9px; font: inherit; outline: none; }
-    .search:focus { border-color: #18a0fb; }
-    .category-row { display: flex; gap: 8px; margin: -2px 0 10px; align-items: center; justify-content: space-between; }
+    body { margin: 0; padding: 16px; color: #161616; background: #fff; font: 12px Inter, "PingFang SC", Arial, sans-serif; }
+    .selection { height: 58px; margin-bottom: 12px; padding: 8px 12px; border-radius: 8px; background: #fff4ea; color: #9b8b7d; font-size: 12px; line-height: 18px; }
+    .selection.ready { background: #edfaf3; color: #648a74; }
+    .selection b { display: block; color: #1f1f1f; margin: 0; font-size: 14px; font-weight: 500; line-height: 20px; }
+    .category-row { display: flex; gap: 8px; margin: 0 0 16px; align-items: center; justify-content: space-between; height: 30px; }
     .actions { display: flex; gap: 8px; align-items: center; justify-content: flex-end; }
-    .batch { display: inline-flex; align-items: center; gap: 5px; height: 26px; border: 0; border-radius: 13px; padding: 0 9px; background: transparent; color: #333; font: 11px Inter, Arial, sans-serif; cursor: pointer; }
-    .batch:hover { background: #f1f1f1; }
+    .batch { display: inline-flex; align-items: center; height: 26px; border: 0; border-radius: 6px; padding: 0 10px; background: #f5f5f5; color: #161616; font: 500 12px Inter, "PingFang SC", Arial, sans-serif; cursor: pointer; white-space: nowrap; }
+    .batch:hover { background: #ededed; }
     .batch:disabled { color: #aaa; cursor: not-allowed; }
-    .batch-icon { font-size: 12px; line-height: 1; }
-    .tabs { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
-    .tab { border: 0; border-radius: 16px; padding: 6px 11px; background: #f1f1f1; color: #666; font: inherit; cursor: pointer; }
-    .tab.active { background: #18a0fb; color: #fff; }
-    .category-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+    .tabs { display: flex; align-items: center; gap: 8px; height: 34px; margin: 0 0 12px; }
+    .tab { height: 34px; min-width: 56px; border: 0; border-radius: 8px; padding: 0 14px; background: transparent; color: #999; font: 500 16px Inter, "PingFang SC", Arial, sans-serif; cursor: pointer; }
+    .tab.active { background: #f5f5f5; color: #161616; font-weight: 500; }
+    .category-tabs { display: flex; gap: 16px; align-items: center; flex-wrap: nowrap; }
     .category-tabs.hidden { display: none; }
-    .category-tab { border: 0; border-radius: 14px; padding: 5px 9px; background: #f6f6f6; color: #777; font: 11px Inter, Arial, sans-serif; cursor: pointer; }
-    .category-tab.active { background: #202020; color: #fff; }
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; max-height: 345px; overflow: auto; padding: 1px; }
-    .card { overflow: hidden; padding: 0; border: 1px solid #e0e0e0; border-radius: 8px; background: #fff; text-align: left; cursor: pointer; }
-    .card:hover { border-color: #18a0fb; box-shadow: 0 1px 5px #18a0fb2b; }
-    .thumb { display: flex; align-items: center; justify-content: center; width: 100%; height: 116px; background: #f2f2f2; color: #999; font-size: 10px; }
-    .thumb img { display: block; width: 100%; height: 116px; object-fit: cover; }
-    .card span { display: block; min-height: 35px; padding: 6px; color: #333; font-size: 10px; line-height: 1.35; word-break: break-all; }
+    .category-tab { border: 0; padding: 0; background: transparent; color: #999; font: 400 14px Inter, "PingFang SC", Arial, sans-serif; font-weight: 400; cursor: pointer; white-space: nowrap; }
+    .category-tab.active { background: transparent; color: #202020; font-weight: 500; }
+    .grid { display: grid; grid-template-columns: repeat(3, 114px); gap: 20px 13px; max-height: calc(100vh - 194px); overflow: auto; padding: 0 0 18px; }
+    .card { overflow: hidden; padding: 0; border: 0; border-radius: 7px; background: #fff; text-align: left; cursor: pointer; }
+    .card:hover .thumb { box-shadow: inset 0 0 0 2px #18a0fb; }
+    .thumb { display: flex; align-items: center; justify-content: center; width: 114px; height: 160px; border-radius: 12px; overflow: hidden; background: #f2f2f2; color: #999; font-size: 10px; }
+    .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .card.actor .thumb { width: 56px; height: 56px; margin: 0 auto; border-radius: 50%; aspect-ratio: 1; }
+    .card.actor .thumb img { height: 100%; }
+    .card span { display: -webkit-box; min-height: 42px; padding: 8px 0 0; color: #1f1f1f; font-size: 12px; font-weight: 500; line-height: 17px; word-break: break-all; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card.actor span { min-height: 25px; padding-top: 8px; text-align: center; font-size: 12px; font-weight: 500; line-height: 17px; -webkit-line-clamp: 1; }
     .empty, .loading { grid-column: 1 / -1; padding: 34px 12px; color: #777; text-align: center; }
-    .message { min-height: 18px; margin-top: 9px; font-size: 11px; }
+    .message { display: none; }
     .message.ok { color: #16834b; }
     .message.error { color: #c63636; }
-    .settings { margin-top: 10px; color: #777; font-size: 10px; }
-    .settings summary { cursor: pointer; }
-    .endpoint { width: 100%; height: 29px; margin-top: 6px; border: 1px solid #ddd; border-radius: 5px; padding: 0 7px; font-size: 10px; }
-    .reload { margin-top: 5px; border: 0; background: transparent; color: #167cc0; font: inherit; cursor: pointer; padding: 0; }
+    .grid.actor-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 20px; }
   </style>
 </head>
 <body>
-  <h1>Fillmate · 共享内容填充</h1>
-  <p class="intro">选择一项素材，即可同时填充图片和与其同名的文字。</p>
   <div id="selection" class="selection"><b>还没有选中图层</b>请选中封面/头像图层和对应名称文本图层。</div>
-  <div class="toolbar"><input id="search" class="search" placeholder="搜索剧名或演员名" /></div>
   <div class="tabs">
-    <button class="tab active" data-kind="drama">短剧封图</button>
-    <button class="tab" data-kind="actor">演员头像</button>
+    <button class="tab active" data-kind="drama">短剧</button>
+    <button class="tab" data-kind="novel">小说</button>
+    <button class="tab" data-kind="actor">用户</button>
   </div>
   <div class="category-row">
     <div id="category-tabs" class="category-tabs"></div>
     <div class="actions">
-      <button id="batch" class="batch"><span class="batch-icon">⟳</span><span>一键填充当前分类</span></button>
+      <button id="batch" class="batch">一键填充</button>
     </div>
   </div>
-  <div id="grid" class="grid"><div class="loading">版本 0626-10：正在启动素材库…</div></div>
+  <div id="grid" class="grid"><div class="loading">正在启动素材库…</div></div>
   <div id="message" class="message"></div>
-  <details class="settings">
-    <summary>素材库连接设置</summary>
-    <input id="endpoint" class="endpoint" value="https://raw.githubusercontent.com/tantan1994/framewise-live-preview/main/shared-library" />
-    <button id="reload" class="reload">重新加载</button>
-  </details>
 
   <script>
-    var endpoint = document.querySelector('#endpoint').value;
+    var endpoint = 'https://raw.githubusercontent.com/tantan1994/framewise-live-preview/main/shared-library';
     var items = [];
     var kind = 'drama';
     var category = '真人剧';
-    var categories = ['真人剧', '漫剧', 'AI仿真人剧'];
+    var categoryMap = {
+      drama: ['真人剧', '漫剧', 'AI仿真人剧'],
+      novel: ['男频', '女频'],
+      actor: ['真人演员', '虚拟角色', '普通用户']
+    };
     var selectionGroups = 0;
     var fallbackItems = [
       ['drama', '真人剧', '夫人一个过肩摔，瘫子总裁站起来了', 'covers/夫人一个过肩摔，瘫子总裁站起来了.jpeg'],
@@ -90,8 +82,6 @@
     ].map(function(x) { return { kind: x[0], category: x[1], name: x[2], image: x[3] }; });
 
     var $ = function(selector) { return document.querySelector(selector); };
-    $('#endpoint').value = endpoint;
-
     function safe(value) {
       return String(value).replace(/[&<>'"]/g, function(c) {
         return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c];
@@ -114,6 +104,7 @@
     function normalizeKind(value) {
       if (value === 'cover' || value === 'covers' || value === 'drama') return 'drama';
       if (value === 'portrait' || value === 'portraits' || value === 'actor' || value === 'actors') return 'actor';
+      if (value === 'book' || value === 'books' || value === 'novel' || value === 'novels') return 'novel';
       return value;
     }
 
@@ -129,7 +120,7 @@
       }).map(function(item) {
         return {
           kind: normalizeKind(item.kind),
-          category: item.category || (normalizeKind(item.kind) === 'drama' ? '真人剧' : ''),
+          category: item.category || (normalizeKind(item.kind) === 'drama' ? '真人剧' : (normalizeKind(item.kind) === 'novel' ? '男频' : '真人演员')),
           name: item.name,
           image: item.image,
           url: assetUrl(item.image),
@@ -141,25 +132,19 @@
     }
 
     function filteredItems() {
-      var q = $('#search').value.trim().toLowerCase();
       return items.filter(function(item) {
         if (item.kind !== kind) return false;
-        if (kind === 'drama' && item.category !== category) return false;
-        return item.name.toLowerCase().indexOf(q) > -1;
+        if (item.category !== category) return false;
+        return true;
       });
     }
 
     function renderCategoryTabs() {
       var wrap = $('#category-tabs');
       wrap.innerHTML = '';
-      if (kind !== 'drama') {
-        wrap.className = 'category-tabs hidden';
-        $('#batch').innerHTML = '<span class="batch-icon">⟳</span><span>一键填充演员头像</span>';
-        return;
-      }
-      $('#batch').innerHTML = '<span class="batch-icon">⟳</span><span>一键填充' + safe(category) + '</span>';
+      $('#batch').textContent = '一键填充';
       wrap.className = 'category-tabs';
-      categories.forEach(function(value) {
+      (categoryMap[kind] || []).forEach(function(value) {
         var button = document.createElement('button');
         button.className = 'category-tab' + (value === category ? ' active' : '');
         button.textContent = value;
@@ -175,6 +160,7 @@
     function render() {
       var shown = filteredItems();
       var grid = $('#grid');
+      grid.className = 'grid' + (kind === 'actor' ? ' actor-grid' : '');
       grid.innerHTML = '';
       if (!shown.length) {
         grid.innerHTML = '<div class="empty">没有找到匹配素材</div>';
@@ -182,7 +168,7 @@
       }
       shown.forEach(function(item) {
         var button = document.createElement('button');
-        button.className = 'card ' + (item.kind === 'drama' ? 'cover' : 'actor');
+        button.className = 'card ' + (item.kind === 'actor' ? 'actor' : 'cover');
         var thumb = item.thumbUrl
           ? '<div class="thumb"><img src="' + safe(item.thumbUrl) + '" alt=""></div>'
           : '<div class="thumb">' + (item.failed ? '图片读取失败' : '加载中…') + '</div>';
@@ -230,19 +216,13 @@
 
     async function load() {
       try {
-        endpoint = $('#endpoint').value.trim().replace(/\/$/, '');
-        if (!endpoint) {
-          message('请输入素材库地址。', 'error');
-          return;
-        }
-        $('#search').value = '';
         items = hydrate(fallbackItems);
         render();
         message('已显示内置素材，正在同步共享素材库…', 'ok');
         var response = await fetch(endpoint + '/catalog.json');
         if (!response.ok) throw new Error('素材库暂不可用');
         var data = await response.json();
-        if (Array.isArray(data.categories) && data.categories.length) categories = data.categories;
+        if (Array.isArray(data.categories) && data.categories.length) categoryMap.drama = data.categories;
         var remoteItems = hydrate(normalizeItems(data));
         items = remoteItems.length ? remoteItems : hydrate(fallbackItems);
         renderCategoryTabs();
@@ -293,7 +273,7 @@
         var count = Math.min(selectionGroups, available.length);
         var picks = shuffle(available).slice(0, count);
         $('#batch').disabled = true;
-        message('正在从「' + (kind === 'drama' ? category : '演员头像') + '」随机填充 ' + count + ' 组…');
+        message('正在从「' + (kind === 'drama' ? category : (kind === 'novel' ? '小说' : '演员')) + '」随机填充 ' + count + ' 组…');
         for (var i = 0; i < picks.length; i++) {
           if (!picks[i].bytes) await loadImageIntoItem(picks[i]);
         }
@@ -317,18 +297,18 @@
         document.querySelectorAll('.tab').forEach(function(x) { x.classList.remove('active'); });
         tab.classList.add('active');
         kind = tab.dataset.kind;
+        category = (categoryMap[kind] || [''])[0];
         renderCategoryTabs();
         render();
       };
     });
-    $('#search').oninput = render;
-    $('#reload').onclick = load;
     $('#batch').onclick = batchApply;
     onmessage = function(event) {
       var m = event.data.pluginMessage;
       if (!m) return;
       if (m.type === 'selection') {
         selectionGroups = m.groups || 0;
+        $('#selection').className = 'selection' + (m.total ? ' ready' : '');
         $('#selection').innerHTML = m.total
           ? '<b>已选中 ' + m.total + ' 个图层</b>可单个填充：' + m.fillable + ' 图 + ' + m.texts + ' 文；可一键填充：' + selectionGroups + ' 组。'
           : '<b>还没有选中图层</b>请选中封面/头像图层和对应名称文本图层。';
