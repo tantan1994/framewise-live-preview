@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "items": [
     {
       "id": "drama-夫人一个过肩摔瘫子总裁站起来了",
@@ -69,37 +69,43 @@
       "id": "actor-韩雨彤",
       "kind": "actor",
       "name": "韩雨彤",
-      "image": "actors/韩雨彤.jpeg"
+      "image": "actors/韩雨彤.jpeg",
+      "category": "真人演员"
     },
     {
       "id": "actor-李柯以",
       "kind": "actor",
       "name": "李柯以",
-      "image": "actors/李柯以.jpeg"
+      "image": "actors/李柯以.jpeg",
+      "category": "真人演员"
     },
     {
       "id": "actor-梁思伟",
       "kind": "actor",
       "name": "梁思伟",
-      "image": "actors/梁思伟.jpeg"
+      "image": "actors/梁思伟.jpeg",
+      "category": "真人演员"
     },
     {
       "id": "actor-王培延",
       "kind": "actor",
       "name": "王培延",
-      "image": "actors/王培延.jpeg"
+      "image": "actors/王培延.jpeg",
+      "category": "真人演员"
     },
     {
       "id": "actor-许顺利",
       "kind": "actor",
       "name": "许顺利",
-      "image": "actors/许顺利.jpg"
+      "image": "actors/许顺利.jpg",
+      "category": "真人演员"
     },
     {
       "id": "actor-姚鸣萧",
       "kind": "actor",
       "name": "姚鸣萧",
-      "image": "actors/姚鸣萧.jpg"
+      "image": "actors/姚鸣萧.jpg",
+      "category": "真人演员"
     },
     {
       "id": "drama-虫儿飞",
@@ -2200,6 +2206,559 @@
       "name": "穿成恶毒女配后，被权臣强夺了",
       "image": "novels/7650564175827045438.jpg",
       "source": "https://fanqienovel.com/page/7650564175827045438"
+    },
+    {
+      "id": "actor-普通用户-Sandysandy",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "Sandysandy",
+      "image": "actors/普通用户/Sandysandy.jpg"
+    },
+    {
+      "id": "actor-普通用户-User_127",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "User_127",
+      "image": "actors/普通用户/User_127.jpg"
+    },
+    {
+      "id": "actor-普通用户-VKingZzz",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "VKingZzz",
+      "image": "actors/普通用户/VKingZzz.jpg"
+    },
+    {
+      "id": "actor-普通用户-summer小美",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "summer小美",
+      "image": "actors/普通用户/summer小美.jpg"
+    },
+    {
+      "id": "actor-普通用户-windflowers",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "windflowers",
+      "image": "actors/普通用户/windflowers.jpg"
+    },
+    {
+      "id": "actor-普通用户-一头瓜瓜瓜瓜瓜瓜",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "一头瓜瓜瓜瓜瓜瓜",
+      "image": "actors/普通用户/一头瓜瓜瓜瓜瓜瓜.jpg"
+    },
+    {
+      "id": "actor-普通用户-响铃卷不卷ovo",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "响铃卷不卷ovo",
+      "image": "actors/普通用户/响铃卷不卷ovo.jpg"
+    },
+    {
+      "id": "actor-普通用户-撒娇冠军",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "撒娇冠军",
+      "image": "actors/普通用户/撒娇冠军.jpg"
+    },
+    {
+      "id": "actor-普通用户-替身人物X",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "替身人物X",
+      "image": "actors/普通用户/替身人物X.jpg"
+    },
+    {
+      "id": "actor-普通用户-林七",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "林七",
+      "image": "actors/普通用户/林七.jpg"
+    },
+    {
+      "id": "actor-普通用户-炭烤生蚝🦪",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "炭烤生蚝🦪",
+      "image": "actors/普通用户/炭烤生蚝🦪.jpg"
+    },
+    {
+      "id": "actor-普通用户-用户18927249",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "用户18927249",
+      "image": "actors/普通用户/用户18927249.jpg"
+    },
+    {
+      "id": "actor-普通用户-用户37365970",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "用户37365970",
+      "image": "actors/普通用户/用户37365970.jpg"
+    },
+    {
+      "id": "actor-普通用户-红果爹爹",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "红果爹爹",
+      "image": "actors/普通用户/红果爹爹.jpg"
+    },
+    {
+      "id": "actor-普通用户-荒野的墨北琛",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "荒野的墨北琛",
+      "image": "actors/普通用户/荒野的墨北琛.jpg"
+    },
+    {
+      "id": "actor-普通用户-菜市场女王歌后林",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "菜市场女王歌后林",
+      "image": "actors/普通用户/菜市场女王歌后林.jpg"
+    },
+    {
+      "id": "actor-普通用户-谭谭以大橘为重",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "谭谭以大橘为重",
+      "image": "actors/普通用户/谭谭以大橘为重.jpg"
+    },
+    {
+      "id": "actor-普通用户-赵葫芦画瓢",
+      "kind": "actor",
+      "category": "普通用户",
+      "name": "赵葫芦画瓢",
+      "image": "actors/普通用户/赵葫芦画瓢.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-云柒柒",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "云柒柒",
+      "image": "actors/虚拟角色/云柒柒.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-云江仙",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "云江仙",
+      "image": "actors/虚拟角色/云江仙.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-云知意",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "云知意",
+      "image": "actors/虚拟角色/云知意.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-凯子",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "凯子",
+      "image": "actors/虚拟角色/凯子.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-叶灵泷",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "叶灵泷",
+      "image": "actors/虚拟角色/叶灵泷.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-夏渊",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "夏渊",
+      "image": "actors/虚拟角色/夏渊.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-姜月初",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "姜月初",
+      "image": "actors/虚拟角色/姜月初.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-张青峰",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "张青峰",
+      "image": "actors/虚拟角色/张青峰.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-徐长寿",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "徐长寿",
+      "image": "actors/虚拟角色/徐长寿.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-扶枭",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "扶枭",
+      "image": "actors/虚拟角色/扶枭.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-扶频",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "扶频",
+      "image": "actors/虚拟角色/扶频.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-曜天神子",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "曜天神子",
+      "image": "actors/虚拟角色/曜天神子.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-林岁安",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "林岁安",
+      "image": "actors/虚拟角色/林岁安.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-林琅天",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "林琅天",
+      "image": "actors/虚拟角色/林琅天.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-楚少野",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "楚少野",
+      "image": "actors/虚拟角色/楚少野.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-楚月鱼",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "楚月鱼",
+      "image": "actors/虚拟角色/楚月鱼.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-江阎",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "江阎",
+      "image": "actors/虚拟角色/江阎.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-沈清",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "沈清",
+      "image": "actors/虚拟角色/沈清.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-沈烛",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "沈烛",
+      "image": "actors/虚拟角色/沈烛.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-烛九阴",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "烛九阴",
+      "image": "actors/虚拟角色/烛九阴.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-王敦",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "王敦",
+      "image": "actors/虚拟角色/王敦.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-秦金枝",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "秦金枝",
+      "image": "actors/虚拟角色/秦金枝.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-芽芽",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "芽芽",
+      "image": "actors/虚拟角色/芽芽.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-贺平生",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "贺平生",
+      "image": "actors/虚拟角色/贺平生.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-陈昊宇",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "陈昊宇",
+      "image": "actors/虚拟角色/陈昊宇.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-陈极",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "陈极",
+      "image": "actors/虚拟角色/陈极.jpg"
+    },
+    {
+      "id": "actor-虚拟角色-陈长安",
+      "kind": "actor",
+      "category": "虚拟角色",
+      "name": "陈长安",
+      "image": "actors/虚拟角色/陈长安.jpg"
+    },
+    {
+      "id": "actor-真人演员-一航",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "一航",
+      "image": "actors/真人演员/一航.jpg"
+    },
+    {
+      "id": "actor-真人演员-余茵",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "余茵",
+      "image": "actors/真人演员/余茵.jpg"
+    },
+    {
+      "id": "actor-真人演员-侯呈玥",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "侯呈玥",
+      "image": "actors/真人演员/侯呈玥.jpg"
+    },
+    {
+      "id": "actor-真人演员-刘宇航",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "刘宇航",
+      "image": "actors/真人演员/刘宇航.jpg"
+    },
+    {
+      "id": "actor-真人演员-刘念",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "刘念",
+      "image": "actors/真人演员/刘念.jpg"
+    },
+    {
+      "id": "actor-真人演员-卡戎",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "卡戎",
+      "image": "actors/真人演员/卡戎.jpg"
+    },
+    {
+      "id": "actor-真人演员-叶鑫鑫（六金）",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "叶鑫鑫（六金）",
+      "image": "actors/真人演员/叶鑫鑫（六金）.jpg"
+    },
+    {
+      "id": "actor-真人演员-吴添豪",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "吴添豪",
+      "image": "actors/真人演员/吴添豪.jpg"
+    },
+    {
+      "id": "actor-真人演员-姚冠宇",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "姚冠宇",
+      "image": "actors/真人演员/姚冠宇.jpg"
+    },
+    {
+      "id": "actor-真人演员-孙艺燃",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "孙艺燃",
+      "image": "actors/真人演员/孙艺燃.jpg"
+    },
+    {
+      "id": "actor-真人演员-岳雨婷",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "岳雨婷",
+      "image": "actors/真人演员/岳雨婷.jpg"
+    },
+    {
+      "id": "actor-真人演员-张晋宜",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "张晋宜",
+      "image": "actors/真人演员/张晋宜.jpg"
+    },
+    {
+      "id": "actor-真人演员-张楚萱",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "张楚萱",
+      "image": "actors/真人演员/张楚萱.jpg"
+    },
+    {
+      "id": "actor-真人演员-张翅",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "张翅",
+      "image": "actors/真人演员/张翅.jpg"
+    },
+    {
+      "id": "actor-真人演员-曾辉",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "曾辉",
+      "image": "actors/真人演员/曾辉.jpg"
+    },
+    {
+      "id": "actor-真人演员-杨殊予",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "杨殊予",
+      "image": "actors/真人演员/杨殊予.jpg"
+    },
+    {
+      "id": "actor-真人演员-沉思",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "沉思",
+      "image": "actors/真人演员/沉思.jpg"
+    },
+    {
+      "id": "actor-真人演员-王云云",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "王云云",
+      "image": "actors/真人演员/王云云.jpg"
+    },
+    {
+      "id": "actor-真人演员-王凯沐",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "王凯沐",
+      "image": "actors/真人演员/王凯沐.jpg"
+    },
+    {
+      "id": "actor-真人演员-王宇威",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "王宇威",
+      "image": "actors/真人演员/王宇威.jpg"
+    },
+    {
+      "id": "actor-真人演员-王小亿",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "王小亿",
+      "image": "actors/真人演员/王小亿.jpg"
+    },
+    {
+      "id": "actor-真人演员-王炳翔",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "王炳翔",
+      "image": "actors/真人演员/王炳翔.jpg"
+    },
+    {
+      "id": "actor-真人演员-王皓祯",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "王皓祯",
+      "image": "actors/真人演员/王皓祯.jpg"
+    },
+    {
+      "id": "actor-真人演员-章滢",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "章滢",
+      "image": "actors/真人演员/章滢.jpg"
+    },
+    {
+      "id": "actor-真人演员-翟一莹",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "翟一莹",
+      "image": "actors/真人演员/翟一莹.jpg"
+    },
+    {
+      "id": "actor-真人演员-聂彭逸辰",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "聂彭逸辰",
+      "image": "actors/真人演员/聂彭逸辰.jpeg"
+    },
+    {
+      "id": "actor-真人演员-艾江山",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "艾江山",
+      "image": "actors/真人演员/艾江山.jpg"
+    },
+    {
+      "id": "actor-真人演员-蓝博",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "蓝博",
+      "image": "actors/真人演员/蓝博.jpg"
+    },
+    {
+      "id": "actor-真人演员-谭盐盐",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "谭盐盐",
+      "image": "actors/真人演员/谭盐盐.jpg"
+    },
+    {
+      "id": "actor-真人演员-陈添祥",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "陈添祥",
+      "image": "actors/真人演员/陈添祥.jpg"
+    },
+    {
+      "id": "actor-真人演员-隋安蓉",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "隋安蓉",
+      "image": "actors/真人演员/隋安蓉.jpg"
+    },
+    {
+      "id": "actor-真人演员-马瑞泽",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "马瑞泽",
+      "image": "actors/真人演员/马瑞泽.jpg"
+    },
+    {
+      "id": "actor-真人演员-高子怡",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "高子怡",
+      "image": "actors/真人演员/高子怡.jpg"
+    },
+    {
+      "id": "actor-真人演员-黄浩雯",
+      "kind": "actor",
+      "category": "真人演员",
+      "name": "黄浩雯",
+      "image": "actors/真人演员/黄浩雯.jpg"
     }
   ],
   "categories": [
